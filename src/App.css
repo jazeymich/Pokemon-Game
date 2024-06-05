@@ -1,0 +1,66 @@
+/* General App Styling */
+.App {
+  text-align: center;
+  background-color: rgb(24, 138, 100);
+}
+
+h1 {
+  margin-top: 20px;
+}
+
+/* Scoreboard Styling */
+.scoreboard {
+  margin: 20px auto;
+  padding: 10px;
+  border: 1px solid #463d3d;
+  border-radius: 8px;
+  width: fit-content;
+  background-color: #73f57e;
+}
+
+.scoreboard h2 {
+  margin: 0;
+}
+
+.scoreboard p {
+  margin: 5px 0;
+}
+
+/* Card Container Styling */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 20px;
+}
+
+/* Card Styling */
+.card {
+  width: 250px;
+  border: 1px solid #020000;
+  border-radius: 16px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+  width: auto;
+  height: 100px;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+  background-color: aquamarine;
+}
